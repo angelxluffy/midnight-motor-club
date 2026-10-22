@@ -1,0 +1,264 @@
+/* MIDNIGHT MOTOR CLUB */
+
+{
+box-sizing: border-box;
+}
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+background-color: #101010;
+color: #eeeeee;
+font-family: Arial, sans-serif;
+line-height: 1.7;
+}
+
+header {
+background-color: #080808;
+padding: 24px 8%;
+border-bottom: 3px solid #a71930;
+}
+
+header h1 {
+color: #ffffff;
+font-family: Georgia, serif;
+font-size: 2.3rem;
+letter-spacing: 3px;
+margin: 0;
+}
+
+nav {
+margin-top: 12px;
+}
+
+nav a {
+color: #cccccc;
+text-decoration: none;
+margin-right: 24px;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+nav a:hover {
+color: #e32645;
+}
+
+main {
+max-width: 1100px;
+margin: auto;
+padding: 45px 24px;
+}
+
+h2 {
+color: #ffffff;
+font-family: Georgia, serif;
+font-size: 2rem;
+border-left: 5px solid #a71930;
+padding-left: 15px;
+}
+
+h3 {
+color: #e32645;
+font-family: Georgia, serif;
+}
+
+p {
+color: #c7c7c7;
+}
+
+section {
+margin-bottom: 45px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+a {
+color: #ff526b;
+}
+
+main a {
+display: inline-block;
+background-color: #a71930;
+color: #ffffff;
+padding: 10px 18px;
+text-decoration: none;
+border-radius: 3px;
+margin-top: 10px;
+transition: background-color 0.3s;
+}
+
+main a:hover {
+background-color: #d52242;
+}
+
+footer {
+background-color: #080808;
+color: #999999;
+text-align: center;
+padding: 25px;
+border-top: 2px solid #a71930;
+}
+
+@media (max-width: 600px) {
+header {
+padding: 20px;
+}
+
+header h1 {
+    font-size: 1.7rem;
+}
+
+nav a {
+    margin-right: 12px;
+    display: inline-block;
+}
+
+main {
+    padding: 25px 18px;
+}
+}
+/* HOME PAGE HERO BANNER */.hero {
+background: linear-gradient(135deg, #202020, #090909);
+border: 1px solid #383838;
+border-bottom: 5px solid #a71930;
+padding: 70px 45px;
+margin: 25px 0 50px;
+text-align: left;
+border-radius: 6px;
+}.hero .hero-label {
+color: #e32645;
+font-size: 0.8rem;
+font-weight: bold;
+letter-spacing: 4px;
+}.hero h2 {
+font-size: clamp(2rem, 5vw, 3.5rem);
+line-height: 1.2;
+max-width: 750px;
+border-left: none;
+padding-left: 0;
+}.hero p {
+max-width: 650px;
+}.hero .button {
+display: inline-block;
+background: #a71930;
+color: white;
+padding: 13px 24px;
+text-decoration: none;
+font-weight: bold;
+letter-spacing: 1px;
+border-radius: 3px;
+}.hero .button:hover {
+background: #d52242;
+}
+.hero-image {
+width: 100%;
+max-height: 430px;
+object-fit: cover;
+display: block;
+margin: 25px 0;
+border-radius: 4px;
+border: 1px solid #444444;
+}
+/* CAR GALLERY */
+
+.gallery-intro {
+text-align: center;
+padding: 35px 0;
+}
+
+.gallery-intro h2 {
+display: inline-block;
+border-left: none;
+border-bottom: 3px solid #a71930;
+padding: 0 0 10px;
+}
+
+.car-gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+gap: 25px;
+margin: 35px 0;
+}
+
+.car-card {
+background: #191919;
+border: 1px solid #383838;
+border-radius: 6px;
+overflow: hidden;
+transition: transform 0.3s, border-color 0.3s;
+}
+
+.car-card:hover {
+transform: translateY(-5px);
+border-color: #a71930;
+}
+
+.car-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.car-info {
+padding: 20px;
+}
+
+.car-info h3 {
+margin-top: 0;
+}
+
+.car-info p {
+font-size: 0.95rem;
+}
+/* ABOUT PAGE */
+
+.about-hero {
+background: linear-gradient(135deg, #202020, #090909);
+padding: 50px 35px;
+border-left: 5px solid #a71930;
+margin-bottom: 35px;
+}
+
+.about-hero h2 {
+font-size: 2.5rem;
+}
+
+.about-content {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+gap: 25px;
+}
+
+.about-content article {
+background: #191919;
+border: 1px solid #383838;
+padding: 25px;
+border-radius: 5px;
+}
+
+.about-content article:hover {
+border-color: #a71930;
+}
+
+.about-content h3 {
+letter-spacing: 1px;
+}
+
+.about-content .button {
+display: inline-block;
+background: #a71930;
+color: #ffffff;
+padding: 10px 16px;
+text-decoration: none;
+border-radius: 3px;
+}
+
+.about-content .button:hover {
+background: #d52242;
+}
